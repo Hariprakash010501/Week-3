@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+body{
+  margin:0;
+  padding:0;
+}
+.nav {
+  height: 50px;
+  gap: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: bisque;
+  text-align: center;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.align {
+  padding-top: 10px;
+  margin-top: 20px;
+  display:grid;
+  flex-direction:row;
+  gap: 55px;
+}
+.size {
+  height: 100px;
+  width: 100px;
+}
+.productDetails{
+  border:1px solid black;
+  justify-content: center;
+  align-items: center;
+  margin-top:20px;
+  margin-left:300px;
+  margin-right:300px;
+  padding:20px;
+}
