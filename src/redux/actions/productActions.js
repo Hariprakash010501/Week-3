@@ -1,5 +1,4 @@
 import{ ActionTypes} from "../actionConstant/action-types"
-import axios from "axios"
 export const setProducts=(products)=>{
     return {
         type:ActionTypes.SET_PRODUCTS,
